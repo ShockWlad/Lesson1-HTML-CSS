@@ -1,0 +1,77 @@
+body{ 
+    /*Такой шрифт текста используеться очень часто во всех текстах*/
+    font-family: Arial, Helvetica, sans-serif; /*Шрифт текста*/
+}
+
+a{
+    text-decoration: none; /*Подчеркивание(none - нет)*/
+    color: black;        /*Цвет черный*/
+}
+
+img{
+    max-width: 100%; /*Максимальная длина блока*/
+}
+
+.text-center{
+    text-align: center; /*Текст в центре страници*/
+}
+
+.text-uppercase{
+    text-transform: uppercase; /*Весь текст в верхнем регистре*/
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.page-title {
+    letter-spacing: 1px; /*Увиличение пробела в тексте*/
+}
+
+.pade-description{
+    color: gray;   /*Цвет текста*/
+    font-size: 16px; /*Розмер текста*/
+}
+
+/* News Section Start */
+
+.news-container {
+    margin-top: 100px /*Отступ сверху поста*/
+}
+
+.news-post{
+    width: 800px; /*Блок поста занимает 800px*/
+    margin-bottom: 50px; /*Отступ между постами*/
+}
+
+.news-post-author, .news-post-date{
+    font-size: 14px;     /*Размер*/
+    color: lightgreen; /*Цвет текста*/
+}
+
+.news-post-date {
+    color: gray; /*Цвет текста*/
+}
+
+.news-post-title{
+    border-left: 4px solid black; /*Линия слева от текста(4px, сплошная, черного цвета*/
+    padding-left: 10px;             /*Отступ от левого края*/
+}
+
+.news-post-text {
+    border-left : 4px solid gray; /*Линия слева от текста(4px, сплошная, серого цвета*/
+    padding-left: 10px;              /*Отступ от левого края*/
+    font-style: italic;              /*Шрифт наклоный*/
+    line-height: 22px;               /*Меж-строчный интервал*/
+}
+
+.news-post-link{
+    color: cadetblue;
+}
+
+.news-post-link:hover { /*При наведении*/
+    color: rgb(237, 100, 100);
+}
+
+
+
